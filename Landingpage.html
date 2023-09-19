@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Basic styling for the entire page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color:mediumseagreen
+        }
+
+        /* Header styles */
+        header {
+            /* background-color:white; */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Navigation menu styles */
+        nav {
+            /* background-color: #444; */
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* Content section styles */
+        .container {
+            max-width: 1200px;
+            margin: 20px;
+            font-size: 20px;
+            color: white;
+            width:50%;
+            float: left;
+           
+        }
+
+        /* Footer styles */
+        footer{
+            /* color:black; */
+            padding: 5px 0;
+            margin-top: 600px;
+        }
+
+        .btnclass{
+            font-weight: bold;
+            color: black;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 10px;
+        }
+        .ganesha{
+            float:right;
+            width:500px;
+            height:500px;
+            border-radius: 10px;
+            margin-right: 10px;
+            border: 2px solid white;
+            
+        }
+        .image-src{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            height:10px; 
+            
+        }
+    
+        /* Media queries for responsiveness */
+        @media (max-width: 768px) {
+            nav ul {
+                text-align: center;
+            }
+
+            nav li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Simple Landing Webpage</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Ganesh Chathurthi</h1>
+        <p>The festival celebrates Ganesha as the God of New Beginnings and the Remover of Obstacles
+             as well as the god of wisdom and intelligence and is observed throughout India, especially in 
+            the states such as Maharashtra, Madhya Pradesh, Karnataka, Kerala, Telangana, Andhra Pradesh, 
+            Tamil Nadu and Goa.
+        </p>
+        <button class="btnclass">View All Services</button>
+    </div>
+    <div>
+        <img class='ganesha'  src="C:\Users\Pradeep\Desktop\cool-ganesh.jpg"/>
+    </div>
+
+    <footer>
+        <div class="image-src">
+            <img src="C:\Users\Pradeep\Downloads\icons8-facebook-48.png"/>
+            <img src="C:\Users\Pradeep\Downloads\icons8-instagram-48.png"/>
+            <img src="C:\Users\Pradeep\Downloads\icons8-twitter-48.png"/>
+        </div>
+    </footer>
+</body>
+</html>
